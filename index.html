@@ -41,39 +41,7 @@ html, body {
   position: absolute;
   color: #ff6fae;
   text-shadow: 0 0 12px #ff4d94;
-  white-space: nowrap;
-  animation: float linear infinite;
-}
-
-@keyframes float {
-  from { transform: translate3d(var(--x), var(--y), var(--z)); opacity: 0; }
-  to   { transform: translate3d(var(--x), calc(var(--y) - 420px), var(--z)); opacity: 1; }
-}
-
-.heart {
-  position: absolute;
-  color: rgba(255, 77, 148, 0.25);
-  animation: heart linear infinite;
-}
-
-@keyframes heart {
-  from { transform: translateY(0); opacity: 0; }
-  to   { transform: translateY(-600px); opacity: 1; }
-}
-</style>
-</head>
-
-<body>
-
-<div id="bg"></div>
-
-<div id="scene">
-  <div id="world"></div>
-</div>
-
-<script>
-const wishes = [
-  "Chúc tập thể HK16 luôn đạt được nhưng điều mong muốn",
+  white-space: nnhững điều mong muốn",
   "Ngày càng xinh trai,đẹp gái",
   "Luôn hạnh phúc trên con đường đã chọn",
   "Chúc HK16 một năm mới bình an",
@@ -154,4 +122,5 @@ document.addEventListener("touchmove", e => {
 
 </body>
 </html>
+
 
